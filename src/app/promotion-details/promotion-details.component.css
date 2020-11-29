@@ -1,0 +1,187 @@
+.hotels {
+    color: #e0ad1e;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  
+  .header {
+    color: #666666;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  
+  .carousel-indicators li {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50%;
+  }
+  
+  .prev-next {
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+  }
+  
+  .sectiontwo-title {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .sectiontwo-parag {
+    color: #666666;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .form-title {
+    background-color: black;
+  }
+  
+  .form {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .tourist-info {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  
+  .nav-pills .nav-link.active {
+    border-radius: 3px;
+    background-color: #e0ad1e;
+    color: white !important;
+  }
+  
+  .nav-link {
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    border-radius: 3px !important;
+    color: black !important;
+  }
+  .contact-info {
+    font-family: "Playfair Display Black";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    font-weight: bold;
+  }
+  
+  .book-btn {
+    background-color: #e0ad1e;
+    border-radius: 5px;
+    color: white;
+  }
+  .details {
+    color: #666666;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  .details-title {
+    font-family: "Playfair Display Bold";
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .hotels-title {
+    color: #2d2d2d;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  
+  .hotels-content {
+    color: #4c4c4c;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  .similar-hotels {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  .view-all {
+    color: #4c4c4c;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+
+
+  .slider{
+    position: relative;
+    margin-bottom:10px ;
+}
+.slick-slide{
+    height: 600px !important;
+}
+.slick-slide img{
+    height: 100%;
+}
+.slider .btn-next{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    z-index: 567888;
+    background-color: #ffffff7a;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    border-radius: 50%;
+    border: none;
+}
+
+.slider .btn-prev{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    z-index: 567888;
+    background-color: #ffffff7a;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    border-radius: 50%;
+    border: none;
+}
+
+.small-sliders{
+    display: inline;
+    margin-right: 10px;
+   
+    width: 200px;
+    
+}
+
+.small-sliders img{
+    height: 150px;
+}

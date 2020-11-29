@@ -1,0 +1,218 @@
+
+.background{
+    background-image: url('../../assets/imgs/pexels-charlotte-may-5824522.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+   
+ }
+ form{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 3px;
+    left: 10%;
+   
+}
+.btn-dark{
+    line-height: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #E0AD1E;
+
+padding-left: 53px;
+padding-right: 53px;
+}
+.btn-dark svg{
+    color: #E0AD1E;
+
+}
+
+h2{
+    font-size: 24px;
+    color:#000;
+}
+.view-link{
+    font-size: 16px;
+    color: #4C4C4C;
+    text-decoration: underline;
+    font-style: italic;
+}
+.nav-tabs{
+    width: 70%;
+    margin: auto;
+    border: none;
+}
+.nav-tabs .nav-link{
+    font-size: 16px;
+    color:#000
+}
+
+.nav-tabs .nav-link.active{
+    border-bottom: 2px solid #E0AD1E;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}   
+
+.card{
+    border:none;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.card .card-title{
+    color: #000;
+}
+.card .svg{
+    position: absolute;
+    top: -3%;
+    font-size: 90px;
+    right: 0;
+    color: #E0AD1E;
+}
+.card .sale{
+    position: absolute;
+    right: 7%;
+    top: 2%;
+    color: #fff;
+    font-size: 22px;
+}
+.card .sale-number{
+    position: absolute;
+    right: 6%;
+    top: 8%;
+    color: #fff;
+    font-size: 22px;
+}
+.card img{
+    height: 230px;
+}
+.card span{
+    color: #4C4C4C;
+    font-size: 14px;;
+}
+.card .stars{
+    display: inline;
+}
+
+.stars svg{
+    color:#E0AD1E;
+}
+
+.recomends .stars svg{
+    margin: 5px;
+}
+
+.recomends .hotels svg{
+    margin: 5px;
+}
+
+.recomends .btn-outline-secondary{
+    color: #2D2D2D;
+}
+
+.recomends p{
+    margin-bottom: 0;
+}
+
+.partners img{
+        width:60%
+    
+}
+
+.slider{
+    position: relative;
+    margin-bottom:10px ;
+}
+.slick-slide{
+    height: 450px !important;
+    padding: 10px;
+}
+.slick-slide img{
+    height: 100%;
+
+    border-radius: 8px;
+}
+.slider .btn-next{
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    z-index: 567888;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    color: #000;
+    border-radius: 50%;
+    border: none;
+}
+
+.slider .btn-prev{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    z-index: 567888;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    color: #000;
+    border-radius: 50%;
+    border: none;
+}
+
+.small-sliders{
+    display: inline;
+    margin-right: 10px;
+   
+    width: 200px;
+    
+}
+
+.small-sliders img{
+    height: 150px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border:none
+}
+
+.border-icon{
+    border-left: 0;
+}
+.input-group-text{
+    background-color: transparent;
+    border-right: 0;
+    padding: 8px 16px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .btn-dark{
+        margin: 0;
+        font-size: 12px;
+        color: #E0AD1E;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .input-group{
+        margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .btn-dark{
+        margin: 0;
+        font-size: 12px;
+        color: #E0AD1E;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .input-group{
+        margin-top: 10px;
+    }
+}

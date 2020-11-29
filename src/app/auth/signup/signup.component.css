@@ -1,0 +1,44 @@
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #072D4F;
+}
+p{
+    font-size: 18px;
+    color: #9199B6;
+
+}
+form{
+    background-color: #fff;
+}
+label{
+    font-size: 20px;
+}
+.form-control{
+    height: 60px;
+}
+button{
+    line-height: 48px;
+    color: #E0AD1E;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+span{
+    font-size: 20px;
+    color: #000;
+    
+}
+span a{
+    color: #E0AD1E;
+    text-decoration: none;
+}
+
+.border-icon{
+    border-right: 0;
+}
+.input-group-text{
+    background-color: transparent;
+    border-left: 0;
+    padding: 8px 16px;
+}
