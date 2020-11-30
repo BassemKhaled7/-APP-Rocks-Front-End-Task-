@@ -1,4 +1,8 @@
+First open the project in your editor.
+
 To Run the project please Run `npm install` in terminal to install node modules in the project.
+
+After all packages installed run `ng s -o` to open the project
 
 # Nkn
 
