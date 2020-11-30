@@ -1,4 +1,4 @@
-To Run the project please Run `npm i` in your terminal.
+To Run the project please Run `npm install` in terminal to install node modules in the project.
 
 # Nkn
 
